@@ -1,0 +1,26 @@
+{
+  "name": "travelulu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass:css --watch",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisherreralg/Travelulu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisherreralg/Travelulu/issues"
+  },
+  "homepage": "https://github.com/luisherreralg/Travelulu#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "sass": "^1.55.0"
+  }
+}
