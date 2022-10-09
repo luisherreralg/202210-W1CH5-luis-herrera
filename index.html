@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/sass.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 class="header__title">Travelulu</h1>
+            </div>
+            <nav class="nav">
+                <div class="nav__burger"></div>
+                <div class="nav__burger"></div>
+                <div class="nav__burger"></div>
+            </nav>
+        </header>
+        <section class="options">
+            <h2 class="options__title">
+                Find deals on hotels, homes and much more...
+            </h2>
+            <input
+                type="text"
+                class="options__input"
+                id="where"
+                placeholder="Where are you going?"
+            />
+            <input
+                type="text"
+                class="options__input"
+                id="check"
+                placeholder="Check-in - Check-out"
+            />
+            <input
+                type="text"
+                class="options__input"
+                id="people"
+                placeholder="2 adults - 0 children"
+            />
+            <button class="options__button">Search</button>
+        </section>
+        <section class="search">
+            <div class="search__container">
+                <h2 class="search__title">Search</h2>
+                <label for="destination"></label>
+                <input type="text" class="search__input" id="destination" />
+                <label for="checkin"></label>
+                <input type="text" class="search__input" id="checkin" />
+                <label for="checkout"></label>
+                <input type="text" class="search__input" id="checkout" />
+                <label for="peopleSearch"></label>
+                <input type="text" class="search__input" id="peopleSearch" />
+                <button class="search__button">Search</button>
+            </div>
+        </section>
+        <section class="properties">
+            <h2 class="properties__title">254 Properties Found</h2>
+            <article class="properties__article">
+                <img
+                    src="https://via.placeholder.com/250"
+                    alt=""
+                    class="properties__article--img"
+                />
+                <img
+                    src="https://via.placeholder.com/250"
+                    alt=""
+                    class="properties__article--img"
+                />
+                <div class="properties__stars"></div>
+                <h3>Estate de la NewCastle</h3>
+                <p class="properties__paragraph">
+                    Estate de la Newcastle Newcastle City Centre, Newcastle upon
+                    Tyne 0.1km from centre
+                </p>
+                <p class="properties__showMap">Show on map</p>
+                <p class="properties__paragraph">
+                    Situated in Newcastle City Centre, Maldron Hotel features
+                    free WiFi and a private court yard.
+                </p>
+                <button class="properties__button">Make a booking</button>
+            </article>
+        </section>
+    </body>
+</html>
