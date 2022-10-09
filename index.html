@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/sass.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 class="header__title">Travelulu</h1>
+            </div>
+            <nav class="nav">
+                <div class="nav__burger"></div>
+                <div class="nav__burger"></div>
+                <div class="nav__burger"></div>
+            </nav>
+        </header>
+        <section class="options">
+            <h2 class="options__title">
+                Find deals on hotels, homes and much more...
+            </h2>
+            <div class="options__inputContainer">
+                <input
+                    type="text"
+                    class="options__input"
+                    id="where"
+                    placeholder="Where are you going?"
+                />
+                <input
+                    type="text"
+                    class="options__input"
+                    id="check"
+                    placeholder="Check-in - Check-out"
+                />
+                <input
+                    type="text"
+                    class="options__input"
+                    id="people"
+                    placeholder="2 adults - 0 children"
+                />
+                <button class="options__button">Search</button>
+            </div>
+        </section>
+        <main class="main">
+            <section class="search">
+                <div class="search__container">
+                    <h2 class="search__title">Search</h2>
+                    <div class="search__div">
+                        <label for="destination" class="search__label"
+                            >Destination/property name</label
+                        >
+                        <input
+                            type="text"
+                            id="destination"
+                            class="search__input"
+                        />
+                    </div>
+                    <div class="search__div">
+                        <label for="checkin" class="search__label"
+                            >Check-in date</label
+                        >
+                        <input type="text" class="search__input" id="checkin" />
+                    </div>
+                    <div class="search__div">
+                        <label for="checkout" class="search__label"
+                            >Check-out date</label
+                        >
+                        <input
+                            type="text"
+                            class="search__input"
+                            id="checkout"
+                        />
+                    </div>
+                    <div class="search__div">
+                        <label for="peopleSearch" class="search__label"
+                            >Travellers</label
+                        >
+                        <input
+                            type="text"
+                            class="search__input"
+                            id="peopleSearch"
+                        />
+                    </div>
+
+                    <button class="search__button">Search</button>
+                </div>
+            </section>
+            <section class="properties">
+                <h2 class="properties__title">254 Properties Found</h2>
+                <article class="properties__article">
+                    <div class="properties__image">
+                        <img src="https://via.placeholder.com/250" alt="" />
+                        <img src="https://via.placeholder.com/250" alt="" />
+                    </div>
+
+                    <div class="properties__starsContainer">
+                        <img
+                            src="data:image/png;base64,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"
+                            alt=""
+                        />
+                    </div>
+                    <h3 class="properties__title">Estate de la NewCastle</h3>
+                    <p class="properties__paragraph">
+                        Estate de la Newcastle Newcastle City Centre, Newcastle
+                        upon Tyne 0.1km from centre
+                    </p>
+                    <p class="properties__showMap">Show on map</p>
+                    <p class="properties__paragraph">
+                        Situated in Newcastle City Centre, Maldron Hotel
+                        features free WiFi and a private court yard.
+                    </p>
+                    <button class="properties__button">Make a booking</button>
+                </article>
+                <article class="properties__article">
+                    <div class="properties__image">
+                        <img src="https://via.placeholder.com/250" alt="" />
+                        <img src="https://via.placeholder.com/250" alt="" />
+                    </div>
+
+                    <div class="properties__starsContainer">
+                        <img
+                            src="data:image/png;base64,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"
+                            alt=""
+                        />
+                    </div>
+                    <h3 class="properties__title">Estate de la NewCastle</h3>
+                    <p class="properties__paragraph">
+                        Estate de la Newcastle Newcastle City Centre, Newcastle
+                        upon Tyne 0.1km from centre
+                    </p>
+                    <p class="properties__showMap">Show on map</p>
+                    <p class="properties__paragraph">
+                        Situated in Newcastle City Centre, Maldron Hotel
+                        features free WiFi and a private court yard.
+                    </p>
+                    <button class="properties__button">Make a booking</button>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
